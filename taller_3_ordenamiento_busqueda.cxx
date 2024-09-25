@@ -10,8 +10,8 @@
 // TODO #7: incluir cabecera arbol AVL
 // #include "arbolAVL.h"
 // TODO #8: incluir cabecera arbol RN a utilizar
-// #include <set>
-// #include <map>
+#include <set>
+#include <map>
 // TODO #9: incluir cabecera monticulo
 // #include "monticulo.h"
 
@@ -21,8 +21,8 @@ typedef std::list< Song > TList;
 // TODO #10: definir nombre alternativo para arbol AVL de tipo Song
 // typedef arbolAVL< Song > TAVL;
 // TODO #11: definir nombre alternativo para arbol RN de tipo Song
-// typedef std::set< Song >  TSet;
-// typedef std::map< std::string, Song >  TMap;
+typedef std::set< Song >  TSet;
+typedef std::map< std::string, Song >  TMap;
 // TODO #12: definir nombre alternativo para monticulo de tipo Song
 // typedef monticulo< Song > THeap;
 
